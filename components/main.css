@@ -1,0 +1,38 @@
+.main {
+    background-image: url("../images/main.jpeg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center bottom;
+    text-align: center;
+    vertical-align: middle;
+    padding: 150px;
+}
+
+.main-header {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.8em;
+    letter-spacing: 0.5em;
+    margin: 50px;
+  }
+
+.local-scroll {
+    position: absolute;
+    bottom: 20px;
+    display: inline;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    align-items: center;
+}
+
+
+.local-scroll a {
+    color: black;
+}
+
+.local-scroll a:hover {
+    color: black;
+}

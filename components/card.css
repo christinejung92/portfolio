@@ -1,0 +1,52 @@
+#portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+
+.portfolio-item1 {
+    background-image: url("../images/werun.jpg");
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    background-position: center
+}
+
+.portfolio-item2 {
+    background-image: url("../images/purshare.jpg");
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    background-position: center
+}
+
+.overlay {
+  top: 0;
+  left: 0;
+  background: rgba(77, 77, 77, .5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 300ms ease-in;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.overlay:hover {
+    top: 0;
+    left: 0;
+    background: rgba(77, 77, 77, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 1;
+    transform: translateY(10px);
+    transition: all 300ms ease-in;
+  }

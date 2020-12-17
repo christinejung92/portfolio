@@ -1,0 +1,20 @@
+@import "components/button.css";
+@import "components/footer.css";
+@import "components/navbar.css";
+@import "components/images.css";
+@import "components/contents.css";
+@import "components/main.css";
+@import "components/card.css";
+
+
+p, h1, h2, h3, h4, h5, h6, a {
+  font-family: 'Dosis', sans-serif;
+}
+
+
+
+
+
+
+
+
